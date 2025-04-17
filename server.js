@@ -25,7 +25,7 @@ app.post("/posts", (req, res) => {
   const newPost = {
     id: posts.length + 1,
     title: title,
-    concent: content,
+    content: content,
   };
   // Add the new post to the posts array
   posts.push({newPost});
